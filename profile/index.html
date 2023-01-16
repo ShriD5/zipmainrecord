@@ -70,6 +70,94 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
     </style>
 
@@ -125,9 +213,6 @@
 <link rel="dns-prefetch" href="//player.vimeo.com">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="stylesheet" id="search-filter-plugin-styles-css" href="../wp-content/A.plugins%2C%2C_search-filter-pro%2C%2C_public%2C%2C_assets%2C%2C_css%2C%2C_search-filter.min.css%2C%2Cqver%3D%3D2.5.1%2Bthemes%2C%2C_omegafunds%2C%2C_media%2C%2C_dist%2C%2C_css%2C%2C_style.css%2C%2Cqver%3D%3D1216361604498180%2CMcc.Vjm8SzTbpn.css.pagespeed.cf.w3CFYerrrG.css" type="text/css" media="all">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/jquery@3.3.1,npm/jquery.easing@1.4.1?ver=5.5.5" id="jquery-js"></script>
 <script type="text/javascript" src="https://player.vimeo.com/api/player.js?ver=5.5.5" id="vimeo-script-js"></script>
 <link rel="https://api.w.org/" href="https://omegafunds.impression.studio/wp-json/"><link rel="alternate" type="application/json" href="https://omegafunds.impression.studio/wp-json/wp/v2/pages/16"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://omegafunds.impression.studio/xmlrpc.php?rsd">
@@ -428,19 +513,38 @@ future<br>of recycling and reuse</p>        	</h1>
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img width="950" height="585" src="../assets/our facility/facility/JC Industries - Factory front view-1.webp" alt="mmr">
-                </div>
+            <div class="slideshow-container">
 
-                <div class="item">
-                    <img  width="950" height="585" src="../assets/our facility/facility/mmr.webp" alt="mmr">
-                </div>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img  width="950" height="585" src="../assets/our facility/facility/JC Industries - Factory front view-1.webp" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
 
-                <div class="item">
-                    <img  width="950" height="585" src="../assets/our facility/facility/mmr2.webp" alt="mmr">
-                </div>
-            </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img  width="950" height="585" src="../assets/our facility/facility/mmr.webp" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img  width="950" height="585" src="../assets/our facility/facility/mmr2.webp" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
         </div>
     </div>
 </section>
@@ -664,7 +768,34 @@ var superpwa_sw = {"url":"\/superpwa-sw.js"};
 <script type="text/javascript" src="../wp-content/plugins/super-progressive-web-apps/public/js/register-sw.js" id="superpwa-register-sw-js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/greensock@1.20.2,npm/scrollmagic@2.0.7/scrollmagic/minified/ScrollMagic.min.js,npm/scrollmagic@2.0.7/scrollmagic/minified/plugins/animation.gsap.min.js,npm/is-in-viewport@3.0.4,npm/lozad@1.16.0,npm/flickity@2.2.1/dist/flickity.pkgd.min.js,npm/paroller.js@1.4.0?ver=5.5.5" id="bundled-script-js"></script>
 <script type="text/javascript" src="../wp-content/themes/omegafunds/media/dist/js/global.min_ver%3D160751604498182.js" id="global-script-js"></script>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
     <!-- Footer tracking code(s) -->
 	
 </body>
