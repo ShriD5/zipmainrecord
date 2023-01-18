@@ -2143,7 +2143,7 @@
   
   article.employee-listed .name b {
     display: block;
-    font-size: large;
+    font-size: small;
   }
   
   article.employee-listed .btn-linkedin {

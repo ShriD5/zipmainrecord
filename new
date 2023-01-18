@@ -1,0 +1,188 @@
+<section id="team" class="team view-detect ">
+    <div class="container">
+       <!--
+          Tabs
+          -->
+       <!--
+          Results
+          -->
+       <div class="listing">
+          <!-- Grouped by department -->
+          <div class="group" id="management">
+             <!-- Heading -->
+             <!-- Employees -->
+             <div class="employees -group--management">
+                <!-- Employee -->
+             </div>
+          </div>
+          <!-- Grouped by department -->
+          <div class="group" id="investment-professionals">
+             <!-- Heading -->
+             <header class="department">
+                <h4>Our <span style="color:#f80a03">Services</span></h4>
+             </header>
+             <!-- Employees -->
+             <div class="employees -group--investment-professionals">
+                <!-- Employee -->
+               <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('./assets/images/Asset83MMR.webp') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">Non-ferrous Metals </a>         
+                   </b>
+                             
+                         <br>
+                      
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+              <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('./assets/Asset83MMR 1.jpg') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">Plastic Waste Recycling</a>                            </b>
+                           
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+                <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('https://5.imimg.com/data5/LK/EE/MY-4062015/plastic-scrap-500x500.jpg') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">E-waste Recycling</a>                            </b>
+                           
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+              <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('https://5.imimg.com/data5/LK/EE/MY-4062015/plastic-scrap-500x500.jpg') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">E-waste Recycling</a>                            </b>
+                           
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+
+             </div>
+               <div class="employees -group--investment-professionals">
+                <!-- Employee -->
+              <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('https://5.imimg.com/data5/LK/EE/MY-4062015/plastic-scrap-500x500.jpg') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">E-waste Recycling</a>                            </b>
+                           
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+              <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('https://5.imimg.com/data5/LK/EE/MY-4062015/plastic-scrap-500x500.jpg') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">E-waste Recycling</a>                            </b>
+                           
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+               <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('https://5.imimg.com/data5/LK/EE/MY-4062015/plastic-scrap-500x500.jpg') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">E-waste Recycling</a>                            </b>
+                           
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+                <article class="employee-listed view-detect ">
+                   <div class="article_inner">
+                      <!-- Photo -->
+                      <a  class="photo" href="./product2/index.html"  target="_self">
+                         <div class="photo_src lozad" data-background-image-set="url('https://5.imimg.com/data5/LK/EE/MY-4062015/plastic-scrap-500x500.jpg') 1x"></div>
+                      </a>
+                      <!-- Info -->
+                      <div class="meta">
+                         <!-- Name -->
+                         <div class="name">   
+                            <b>
+<a href="./product2/index.html" style="color: red;">E-waste Recycling</a>                            </b>
+                           
+                         </div>
+                         <!-- LinkedIn button -->
+                      </div>
+                   </div>
+                </article>
+
+             </div>
+          </div>
+          <!-- Grouped by department -->
+          <!-- Grouped by department -->
+          <!-- Grouped by department -->
+          <!-- Go to top -->
+
+       </div>
+    </div>
+ </section>
